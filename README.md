@@ -1,5 +1,7 @@
 # Ubuntu + Btrfs + Automatic Snapshots
 
+## NOTE: ciab modification to include Incus 
+
 This script creates Btrfs subvolumes (while still in Live CD/USB mode) for Ubuntu 24.04 (or newer) and compatible derivatives.
 
 ## What the Script Does
