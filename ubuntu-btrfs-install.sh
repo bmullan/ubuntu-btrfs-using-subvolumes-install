@@ -46,8 +46,11 @@ create_subvols() {
 
     find -maxdepth 1 \! -name "@*" \! -name . -exec rm -Rf {} \;
 
+#===================================================================================
+# bjm - added @incus entry
+#===================================================================================
     subvols=(
-        @home @log @cache @tmp @libvirt
+        @home @log @cache @incus @tmp @libvirt
         @flatpak @docker @containers @machines
         @var_tmp @opt
     )
@@ -73,11 +76,15 @@ ajusta_fstab() {
     sed -i "/ btrfs /d" "$fstab_path"
     sed -i "/ swap /d" "$fstab_path"
 
+#===================================================================================
+# bjm - added @incus entry
+#===================================================================================
     declare -A mountpoints=(
         [@]="/"
         [@home]="/home"
         [@log]="/var/log"
         [@cache]="/var/cache"
+        [@incus]="/var/lib/incus"
         [@libvirt]="/var/lib/libvirt"
         [@flatpak]="/var/lib/flatpak"
         [@docker]="/var/lib/docker"
