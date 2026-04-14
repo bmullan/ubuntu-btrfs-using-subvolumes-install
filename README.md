@@ -7,7 +7,7 @@ This script creates Btrfs subvolumes (while still in Live CD/USB mode) for Ubunt
 ## What the Script Does
 
 - Creates Btrfs subvolumes:  
-  - `@home` `@log` `@cache` `@tmp` `@libvirt` `@flatpak` `@docker` `@containers` `@machines` `@var_tmp` `@opt` 
+  - `@home` `@log` `@cache` '@incus' `@tmp` `@libvirt` `@flatpak` `@docker` `@containers` `@machines` `@var_tmp` `@opt` 
 
 ## Requirements
 
@@ -19,7 +19,7 @@ This script creates Btrfs subvolumes (while still in Live CD/USB mode) for Ubunt
 
 ## Install Ubuntu with Btrfs
 
-This guide uses Ubuntu 25.04 as an example.
+This guide uses Ubuntu 26.04 as an example.
 
 ### Step-by-Step Guide
 
