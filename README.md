@@ -7,7 +7,7 @@ This script creates Btrfs subvolumes (while still in Live CD/USB mode) for Ubunt
 ## What the Script Does
 
 - Creates Btrfs subvolumes:  
-  - `@home` `@log` `@cache` '@incus' `@tmp` `@libvirt` `@flatpak` `@docker` `@containers` `@machines` `@var_tmp` `@opt` 
+  - `@home` `@log` `@cache` `@incus` `@tmp` `@libvirt` `@flatpak` `@docker` `@containers` `@machines` `@var_tmp` `@opt` 
 
 ## Requirements
 
