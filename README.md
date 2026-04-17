@@ -39,7 +39,7 @@ This guide uses Ubuntu 26.04 as an example.
      - Type: EFI System Partition  
      - Mount point: `/boot/efi`  
    - Create the **/boot** partition:  
-     - Size: 1GB  
+     - Size: 3GB  
      - Format: ext4  
      - Mount point: `/boot`  
    - Create the root **/** partition:  
