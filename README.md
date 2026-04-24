@@ -55,11 +55,11 @@ Note: `/boot/efi` partition don't necessarily need to be created first. The `/bo
    - `/` as Btrfs  
 
 5. **Complete Installation**  
-   - Finish the Ubuntu installation, but **DO NOT reboot yet**
+   - Finish the Ubuntu installation, but **DO NOT REBOOT YET !!**
 
 ## How to Use the Script
 
-⚠️ **After installing Ubuntu with Btrfs, do not reboot!**
+⚠️ **After installing Ubuntu with Btrfs, DO NOT REBOOT !**
 
 ### Identify Your Partitions
 
